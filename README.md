@@ -4,6 +4,7 @@
 [![FHIR](https://img.shields.io/badge/FHIR-R5-blue.svg)](https://hl7.org/fhir/R5/)
 [![HAPI FHIR](https://img.shields.io/badge/HAPI%20FHIR-6.10.1-green.svg)](https://hapifhir.io/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/1108501897.svg)](https://doi.org/10.5281/zenodo.17791794)
 
 A lightweight, standalone command-line tool for converting imaging study JSON data (with AI predictions) to FHIR R5 bundles using HAPI FHIR.
 
