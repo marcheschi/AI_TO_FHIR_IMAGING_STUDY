@@ -443,11 +443,12 @@ For issues or questions:
   - Docker-ready
   - Mirth Connect integration examples
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
 **Paolo Marcheschi**  
 Email: [paolo.marcheschi@ftgm.it](mailto:paolo.marcheschi@ftgm.it)
-
+**Maria Pisani**  
+Email: [mpisani@ftgm.it](mailto:mpisani@ftgm.it)
 ---
 
 **Made with ❤️ for the FHIR community**
