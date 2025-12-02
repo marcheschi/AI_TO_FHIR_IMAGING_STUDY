@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  converter:
+    build: .
+    image: imaging-study-cli:latest
+    container_name: imaging-study-converter
+    volumes:
+      # Mount input and output directories
+      - ./examples:/data/input:ro
+      - ./output:/data/output
+    # Override command to process sample file
+    command: ["/data/input/sample_input.json", "/data/output/sample_output.json", "R5"]
+    
+  # Example: Batch processing service
+  batch-converter:
+    image: imaging-study-cli:latest
+    container_name: imaging-study-batch
+    volumes:
+      - ./input:/input:ro
+      - ./output:/output
+    # This would need a wrapper script for batch processing
+    entrypoint: ["/bin/sh", "-c"]
+    command: 
+      - |
+        for file in /input/*.json; do
+          filename=$$(basename "$$file" .json)
+          java -jar /app/converter.jar "$$file" "/output/$${filename}_fhir.json" R5
+        done
+    profiles:
+      - batch
+
+# Usage:
+# 
+# Single file conversion:
+#   docker-compose up converter
+#
+# Batch processing:
+#   docker-compose --profile batch up batch-converter
+#
+# Build only:
+#   docker-compose build

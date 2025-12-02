@@ -1,0 +1,97 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+!target/imaging-study-cli.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Output files
+output/
+*.fhir.json
+*_output.json
+test_output*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Training Outputs
+Python/KFold_results/
+Python/results/
+Python/MODELS/
+Python/temp_processed/
+Python/*.h5
+Python/*.csv
+Python/*.png
+Python/*.txt
+!Python/requirements.txt
+!Python/README.md
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS
+Thumbs.db
+.DS_Store

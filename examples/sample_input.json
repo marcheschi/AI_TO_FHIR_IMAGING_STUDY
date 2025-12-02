@@ -1,0 +1,57 @@
+{
+    "AIModelVersion": "ItalyHospital_Aortic_Calc_v1.0_20251014",
+    "ProcessingTimestamp": "2025-10-17T13:21:00.741826+02:00",
+    "TrainingDataVersion": "MIMIC-CXR-Dataset-v2.0",
+    "Classification": "NORMAL",
+    "PredictionAccuracy": 0.9636083841323853,
+    "ClassificationEncoding": {
+        "Labels": [
+            0,
+            1
+        ],
+        "ClassificationMap": {
+            "0": "AORTIC_CALCIFICATION",
+            "1": "NORMAL"
+        }
+    },
+    "PredictionProbabilities": [
+        0.03639155998826027,
+        0.9636083841323853
+    ],
+    "PredictionDateTime": "2025-10-17T13:21:00.741826+02:00",
+    "DicomInfo": {
+        "PatientName": "JHON^DOE",
+        "PatientFamilyName": "DOE",
+        "PatientGivenName": "JHON",
+        "AccessionNumber": "250.123456",
+        "PatientID": "-123456",
+        "IssuerOfPatientID": "N/A",
+        "PatientBirthDate": "19740424",
+        "PatientSex": "M",
+        "StudyInstanceUID": "1.2.826.0.1.3680043.8.291.251014.70416.250.348136",
+        "SeriesInstanceUID": "1.2.392.200036.9125.3.2105569181213.65113140390.85847",
+        "SOPInstanceUID": "1.2.392.200036.9125.4.0.3777537660.50345938.306515212",
+        "StudyID": "10960",
+        "StudyDescription": "",
+        "SeriesDescription": "N/A",
+        "Modality": "DX",
+        "StudyDate": "20251014",
+        "StudyTime": "072623.873",
+        "AcquisitionDateTime": "2025-10-14T07:27:38.278000",
+        "Manufacturer": "NONAME Corporation",
+        "ManufacturerModelName": "N/A",
+        "DeviceSerialNumber": "MQ00012B1042",
+        "SoftwareVersions": "DR-ID 300CL APL Software V16.0",
+        "ImplementationVersionName": "dcm4che-5.33.1",
+        "SpatialResolution": "[0.15, 0.15]",
+        "DetectorManufacturerModelName": "OpenSourceDetector",
+        "ImageParameters": {
+            "Rows": "2336",
+            "Columns": "2836",
+            "PixelSpacing": "[0.15, 0.15]",
+            "WindowCenter": "8192",
+            "WindowWidth": "9102",
+            "PhotometricInterpretation": "MONOCHROME1"
+        }
+    }
+}
