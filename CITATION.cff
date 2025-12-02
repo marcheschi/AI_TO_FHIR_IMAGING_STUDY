@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "AI to FHIR Imaging Study Converter"
+authors:
+  - family-names: Marcheschi
+    given-names: Paolo
+    email: paolo@ftgm.it
+version: 1.0.0
+date-released: 2025-12-02
+repository-code: "https://github.com/marcheschi/AI_TO_FHIR_IMAGING_STUDY"
+license: Apache-2.0
+description: "Converter tool for transforming AI imaging study data to FHIR format"
+keywords:
+  - FHIR
+  - Healthcare
+  - Imaging
+  - HL7
+  - Converter
